@@ -1,0 +1,5 @@
+@include("../inc.header")
+@include("../inc.sidebar")
+@yield('header')
+@yield('content')
+@include("../inc.footer")
